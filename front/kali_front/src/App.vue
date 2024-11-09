@@ -1,10 +1,9 @@
 <script setup>
-import { RouterView } from 'vue-router'
+import EnterView from "./views/EnterView.vue"
+import ProfileView from "./views/ProfileView.vue"
+import NavBar from "./components/NavBar.vue"
 </script>
 
 <template>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/profile">Profile</RouterLink>
-    <RouterLink to="/register_login">Register | Login</RouterLink>
-  <RouterView />
-</template>
+  <ProfileView />
+</template> 
